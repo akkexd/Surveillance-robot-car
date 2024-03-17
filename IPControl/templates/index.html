@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Control</title>
+</head>
+<body>
+    <h1>ESP32 Control</h1>
+    
+    <h2>Car Control</h2>
+    <button onclick="switchFunctionality('car')">Switch to Car Control</button>
+    
+    <h2>Picture Taking</h2>
+    <button onclick="switchFunctionality('picture')">Switch to Picture Taking</button>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
